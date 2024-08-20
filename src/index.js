@@ -8,8 +8,6 @@ import Contact from "./views/Contact/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<RouterProvider router={router} />);
-
 const router = createBrowserRouter([
     {
       path: "/",
@@ -25,4 +23,4 @@ const router = createBrowserRouter([
     },
   ])
 
-root.render(<RouterProvider router={router} />)
+root.render(<RouterProvider router={router} />);
