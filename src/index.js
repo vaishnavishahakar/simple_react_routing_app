@@ -23,5 +23,6 @@ const router = createBrowserRouter([
       path: "/contact",
       element: <Contact />,
     },
-  ]);
+  ])
 
+root.render(<RouterProvider router={router} />)
